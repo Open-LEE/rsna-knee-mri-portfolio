@@ -1,0 +1,68 @@
+{
+  "same_split": true,
+  "comparisons": {
+    "dev": {
+      "before": 0.7806461978526338,
+      "after": 0.7969543805680351,
+      "delta": 0.016308182715401354,
+      "improved_classes": [
+        "MCL",
+        "Medial Meniscus",
+        "Lateral Meniscus",
+        "Medial OA",
+        "Lateral OA",
+        "PF OA",
+        "Effusion",
+        "Synovitis",
+        "Baker's",
+        "Contusion",
+        "Fracture"
+      ],
+      "declined_classes": [
+        "ACL"
+      ]
+    },
+    "holdout": {
+      "before": 0.8047074812572496,
+      "after": 0.8091961388330148,
+      "delta": 0.00448865757576522,
+      "improved_classes": [
+        "ACL",
+        "MCL",
+        "Medial Meniscus",
+        "Lateral Meniscus",
+        "Medial OA",
+        "Lateral OA",
+        "Effusion",
+        "Baker's",
+        "Contusion",
+        "Fracture"
+      ],
+      "declined_classes": [
+        "PF OA",
+        "Synovitis"
+      ]
+    },
+    "gold_reference": {
+      "before": 0.7122629233048866,
+      "after": 0.7312390650938795,
+      "delta": 0.018976141788992873,
+      "improved_classes": [
+        "ACL",
+        "MCL",
+        "Medial Meniscus",
+        "Medial OA",
+        "Lateral OA",
+        "PF OA",
+        "Synovitis",
+        "Baker's",
+        "Contusion",
+        "Fracture"
+      ],
+      "declined_classes": [
+        "Lateral Meniscus",
+        "Effusion"
+      ]
+    }
+  }
+}

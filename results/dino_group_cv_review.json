@@ -1,0 +1,180 @@
+{
+  "verified": true,
+  "count": 4292,
+  "group_leakage_found": false,
+  "summary": {
+    "status": "complete",
+    "folds": [
+      {
+        "fold": 0,
+        "train": 2861,
+        "validation": 1431,
+        "frozen": {
+          "macro_auc": 0.7855182912801566,
+          "valid_classes": 12,
+          "per_class": {
+            "ACL": 0.733986256084546,
+            "MCL": 0.7534476446180132,
+            "Medial Meniscus": 0.7717618645806237,
+            "Lateral Meniscus": 0.7381326044278691,
+            "Medial OA": 0.8487830173391672,
+            "Lateral OA": 0.8369283523147986,
+            "PF OA": 0.8259403702133672,
+            "Effusion": 0.8243789401410648,
+            "Synovitis": 0.7129943502824858,
+            "Baker's": 0.7524356869184455,
+            "Contusion": 0.7881798800138827,
+            "Fracture": 0.8392505284276144
+          }
+        },
+        "finetuned": {
+          "macro_auc": 0.8130135949543784,
+          "valid_classes": 12,
+          "per_class": {
+            "ACL": 0.7628419710024208,
+            "MCL": 0.7715744752257749,
+            "Medial Meniscus": 0.8033908771573648,
+            "Lateral Meniscus": 0.7453714696054529,
+            "Medial OA": 0.8616496515961757,
+            "Lateral OA": 0.8478632629314905,
+            "PF OA": 0.8371682916490037,
+            "Effusion": 0.8579650666833116,
+            "Synovitis": 0.776497175141243,
+            "Baker's": 0.8117610837438424,
+            "Contusion": 0.8185995008841951,
+            "Fracture": 0.8614803138322645
+          }
+        },
+        "seconds": 1063.869637966156
+      },
+      {
+        "fold": 1,
+        "train": 2861,
+        "validation": 1431,
+        "frozen": {
+          "macro_auc": 0.7991260722924726,
+          "valid_classes": 12,
+          "per_class": {
+            "ACL": 0.7596065683087438,
+            "MCL": 0.7395805443998215,
+            "Medial Meniscus": 0.7959617978692022,
+            "Lateral Meniscus": 0.761593218336484,
+            "Medial OA": 0.8565555160530679,
+            "Lateral OA": 0.8130700663349918,
+            "PF OA": 0.809469815335625,
+            "Effusion": 0.8163156610831028,
+            "Synovitis": 0.8668103448275862,
+            "Baker's": 0.7688396349413299,
+            "Contusion": 0.7794911704233201,
+            "Fracture": 0.822218529596396
+          }
+        },
+        "finetuned": {
+          "macro_auc": 0.8121269407064791,
+          "valid_classes": 12,
+          "per_class": {
+            "ACL": 0.7743741490928286,
+            "MCL": 0.742541179209592,
+            "Medial Meniscus": 0.7967026904082566,
+            "Lateral Meniscus": 0.7668685018903592,
+            "Medial OA": 0.8595088158992429,
+            "Lateral OA": 0.8191099427106889,
+            "PF OA": 0.811404252786334,
+            "Effusion": 0.839055130915596,
+            "Synovitis": 0.8754310344827587,
+            "Baker's": 0.7858570807723351,
+            "Contusion": 0.8156549643550277,
+            "Fracture": 0.8590155459547285
+          }
+        },
+        "seconds": 1049.1238367557526
+      },
+      {
+        "fold": 2,
+        "train": 2862,
+        "validation": 1430,
+        "frozen": {
+          "macro_auc": 0.7892359372151388,
+          "valid_classes": 12,
+          "per_class": {
+            "ACL": 0.7699601242977205,
+            "MCL": 0.7518154815580935,
+            "Medial Meniscus": 0.7779093436056819,
+            "Lateral Meniscus": 0.7643754324650803,
+            "Medial OA": 0.8634011938287793,
+            "Lateral OA": 0.8056889256806475,
+            "PF OA": 0.7916872648175828,
+            "Effusion": 0.8179670533396896,
+            "Synovitis": 0.7917888563049853,
+            "Baker's": 0.7479871815244451,
+            "Contusion": 0.7733644859813085,
+            "Fracture": 0.81488590317765
+          }
+        },
+        "finetuned": {
+          "macro_auc": 0.8082692207927068,
+          "valid_classes": 12,
+          "per_class": {
+            "ACL": 0.7917095256222311,
+            "MCL": 0.7645983856660693,
+            "Medial Meniscus": 0.797095580993237,
+            "Lateral Meniscus": 0.7662636189850704,
+            "Medial OA": 0.8748235412143232,
+            "Lateral OA": 0.8175818616629875,
+            "PF OA": 0.8130259798419226,
+            "Effusion": 0.8349171036601515,
+            "Synovitis": 0.7986889770570985,
+            "Baker's": 0.7820792944541554,
+            "Contusion": 0.7965999046887824,
+            "Fracture": 0.8618468756664533
+          }
+        },
+        "seconds": 1047.1420469284058
+      }
+    ],
+    "submission_ready": false,
+    "elapsed_seconds": 3258.783441543579,
+    "pooled_oof": {
+      "frozen": {
+        "macro_auc": 0.7896128654743086,
+        "valid_classes": 12,
+        "per_class": {
+          "ACL": 0.7521860792055517,
+          "MCL": 0.7460592686002522,
+          "Medial Meniscus": 0.7739413186750355,
+          "Lateral Meniscus": 0.7514759249546988,
+          "Medial OA": 0.8534362497795767,
+          "Lateral OA": 0.8127006466897073,
+          "PF OA": 0.8054827610551912,
+          "Effusion": 0.8175982153593685,
+          "Synovitis": 0.8111857658330224,
+          "Baker's": 0.7534739939264163,
+          "Contusion": 0.7744915322612885,
+          "Fracture": 0.823322629351594
+        }
+      },
+      "finetuned": {
+        "macro_auc": 0.8110151259634706,
+        "valid_classes": 12,
+        "per_class": {
+          "ACL": 0.7740634721225175,
+          "MCL": 0.7568576092208695,
+          "Medial Meniscus": 0.7984419420629609,
+          "Lateral Meniscus": 0.7595504708295712,
+          "Medial OA": 0.865123940008163,
+          "Lateral OA": 0.8272779476118887,
+          "PF OA": 0.8194698898341338,
+          "Effusion": 0.8424799407713401,
+          "Synovitis": 0.831498071419684,
+          "Baker's": 0.7920764300469401,
+          "Contusion": 0.805118077326493,
+          "Fracture": 0.8602237203070838
+        }
+      }
+    },
+    "mean_fold_macro_auc": {
+      "frozen": 0.7912934335959227,
+      "finetuned": 0.8111365854845215
+    }
+  }
+}

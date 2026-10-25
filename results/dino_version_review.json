@@ -1,0 +1,26 @@
+{
+  "cases": 15,
+  "repeat_025_max_probability_difference": 0.0,
+  "cross_version_max_probability_difference": 0.0,
+  "cross_version_mean_probability_difference": 0.0,
+  "cross_version_max_feature_difference": 0.0,
+  "per_class_max_probability_difference": {
+    "ACL": 0.0,
+    "MCL": 0.0,
+    "Medial Meniscus": 0.0,
+    "Lateral Meniscus": 0.0,
+    "Medial OA": 0.0,
+    "Lateral OA": 0.0,
+    "PF OA": 0.0,
+    "Effusion": 0.0,
+    "Synovitis": 0.0,
+    "Baker's": 0.0,
+    "Contusion": 0.0,
+    "Fracture": 0.0
+  },
+  "diagnostic_threshold": 0.001,
+  "repeat_noise_above_0_001": false,
+  "difference_above_threshold": false,
+  "conclusion_scope": "Only sampled inputs under this runtime; does not explain hidden-test score or prove equivalence on all cases",
+  "no_training_no_auc_no_submission": true
+}

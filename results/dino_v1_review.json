@@ -1,0 +1,22 @@
+{
+  "verified": [
+    {
+      "split": "dev",
+      "n": 641,
+      "recomputed_macro_auc": 0.7806461978526338
+    },
+    {
+      "split": "holdout",
+      "n": 638,
+      "recomputed_macro_auc": 0.8047074812572496
+    },
+    {
+      "split": "gold_reference",
+      "n": 58,
+      "recomputed_macro_auc": 0.7122629233048866
+    }
+  ],
+  "group_overlap": false,
+  "selected_epoch": 19,
+  "comparison_to_leaderboard_valid": false
+}

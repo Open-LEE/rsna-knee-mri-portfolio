@@ -1,0 +1,11 @@
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.4,<2
+pillow>=10,<13
+pydicom>=3,<4
+pylibjpeg>=2,<3
+pylibjpeg-libjpeg>=2,<3
+pylibjpeg-openjpeg>=2,<3
+timm==1.0.29
+tqdm>=4.66,<5
+nbformat>=5,<6

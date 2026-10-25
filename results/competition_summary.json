@@ -1,0 +1,17 @@
+{
+  "final_rank": 1634,
+  "total_teams": 6425,
+  "top_percent": 25.43,
+  "rank_source": "Participant-reported final rank; not independently verified",
+  "best_public_auc": 0.958,
+  "private_auc": 0.942,
+  "dino_single_5pct_public_auc": 0.955,
+  "dino_three_fold_2pct_public_auc": 0.957,
+  "final_selection_recommended": [
+    "R6 + R7 mirror v4 Version 2",
+    "R6 + R7 robust v2 Version 2"
+  ],
+  "final_selection_verified": false,
+  "private_auc_source": "Participant-reported final private leaderboard score",
+  "team_name": "Open_LM"
+}
